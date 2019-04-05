@@ -7,8 +7,7 @@
   tasks:
     - name: Download wordpress
       get_url:
-        url: https://wordpress.org/latest.tar.gz) 
-       #url: https://wordpress.org/latest.tar.gz)
+        url: https://wordpress.org/latest.tar.gz
         dest: /tmp/wordpress
   
     - name: Extract the file
@@ -17,5 +16,7 @@
           #format: gzip
           dest: /tmp/
           remote_src: True
+          
+
     
           
