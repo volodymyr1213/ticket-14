@@ -15,7 +15,7 @@
           src: /tmp/wordpress*
           #format: gzip
           dest: /tmp/
-          remote_src: True
+          remote_src: yes
           
 
     
